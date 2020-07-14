@@ -14,7 +14,7 @@
     display: flex;
 	/*border-bottom: 1px #ccc solid; */
 	font-size: 20px;
-	height: 150px;
+	height: 80px;
 }
 .menu ul {
 	display:none;
@@ -22,8 +22,8 @@
 .menu > ul {
 	display:flex;
 	flex-wrap:wrap;
-/*	margin: 10 auto;
-	z-index: 10; */
+	margin: 10 auto;
+	z-index: 5; 
 	list-style-type: none;
 }
 .menu li:hover ul{
@@ -141,3 +141,14 @@
 .instrument-about table{
 	width:100%
 }
+.instrument-about table tr:nth-of-type(2n+1){
+	background:#ccc;	
+}
+.instrument-about table tr:nth-of-type(1){
+	text-align: center;	
+	background:#ffe;
+}
+.imgtable{
+	text-align: center;
+}
+	
